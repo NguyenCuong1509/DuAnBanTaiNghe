@@ -273,7 +273,7 @@ namespace DuAn1.Controllers
                 return RedirectToAction("Index"); // Nếu không tìm thấy hóa đơn, quay lại trang giỏ hàng
             }
 
-            return View(hoaDon); // Trả về trang xem hóa đơn
+            return View(hoaDon); // Trả về trang xem hóa đơn 
         }
     }
 }
